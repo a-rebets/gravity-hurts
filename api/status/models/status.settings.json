@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "statuses",
+  "info": {
+    "name": "status",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "onboarding_done": {
+      "type": "boolean"
+    }
+  }
+}

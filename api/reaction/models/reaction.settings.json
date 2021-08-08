@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reactions",
+  "info": {
+    "name": "reaction",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "score": {
+      "type": "enumeration",
+      "enum": [
+        "sad",
+        "strange",
+        "neutral",
+        "happy",
+        "best"
+      ]
+    },
+    "feedback": {
+      "type": "text"
+    }
+  }
+}
